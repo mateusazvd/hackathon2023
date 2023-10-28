@@ -1,15 +1,14 @@
-import { Sidebar } from '../Sidebar'
-import './index.css';
+import { Sidebar } from "../Sidebar";
 import "./style.css";
 import { multas } from "../../Utils/multas";
 import ResumoMulta from "../../components/resumoMulta";
 
-export function GerarRelatorio() {
-    return (
-        <>
-            <Sidebar />
-      <div className="main-container-desktop">
-        <div className="secundary-container">
+export default function GerarRelatorio() {
+  return (
+    <div style={{display: "flex"}}>
+      <Sidebar />
+      <div className="main-container-relatorio">
+        <div className="secundary-container-relatorio">
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <div className="titleContainer">
               <h1 style={{ color: "white" }}>Gerar relatório</h1>
@@ -38,6 +37,6 @@ export function GerarRelatorio() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
