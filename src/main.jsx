@@ -3,9 +3,9 @@ import { Login } from "./pages/Login";
 import ReactDOM from "react-dom/client";
 import React from "react";
 import { Dashboard } from "./pages/Dashboard";
-import { GerarRelatorio } from "./pages/GerarRelatorio";
+import GerarRelatorio from "./pages/GerarRelatorio";
 import { Reserva } from "./pages/Reserva";
-
+import "./index.css"
 const router = createBrowserRouter([
   {
     path: "/",

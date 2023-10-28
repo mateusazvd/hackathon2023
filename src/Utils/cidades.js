@@ -1,0 +1,1 @@
+export const cidades = ["São Paulo", "Rio de Janeiro", "Salvador", "Belo Horizonte", "Fortaleza", "Manaus", "Recife", "Porto Alegre", "Curitiba", "Goiânia", "Brasília", "Belém", "Maceió", "Natal", "João Pessoa", "Campo Grande", "Vitória", "Florianópolis"]

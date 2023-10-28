@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container-desktop {
+  background-color: #262424;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secundary-container{
+    background-color: #313131;
+    height: 90vh;
+    width: 70%;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.filtros-mes{
+    display: flex;
+    gap: 20px;
+    margin: 0px 30px;
+}
+.filtros-mes button{
+    padding: 5px 10px;
+    background-color: #434242;
+    outline: none;
+    border: none;
+    color: rgb(204, 204, 204);
+    font-weight: lighter;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filtros-mes button:hover{
+    background-color: #E5333B;
+}
+
+.secundary-dashboard-container{
+    
+}
+
+.item-infracao{
+    background-color: #7E7A7A:
+}

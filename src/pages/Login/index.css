@@ -1,0 +1,130 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+display: flex;
+flex-direction: row;
+height: 40rem;
+
+}
+
+.esquerdo{
+background-color: #171718;
+height: 100%;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.direito{
+background-color: white;
+height: 100%;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.formulario{
+display: flex;
+flex-direction: column;
+width: 40%;
+}
+
+.titulo{
+margin-bottom: 10%;
+font-size: 26px;
+font-weight: bold;
+font-family:sans-serif;
+}
+
+.inputLogin{
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-bottom: 1px solid black;
+padding-bottom: 10px;
+font-size: 16px;
+margin-bottom: 20px;
+font-family:sans-serif;
+}
+
+.inputLogin:focus {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #2b2b2b;
+    outline: 0;
+}
+
+.inputSenha{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #2b2b2b;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family:sans-serif;
+    }
+
+.inputSenha:focus {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid #2b2b2b;
+        outline: 0;
+    }
+
+.botao{
+    border-radius: 15px;
+    height: 40px;
+    width: 200px;
+    border: 0;
+    cursor: pointer;
+    color:white;
+    background-color: #171718;
+    font-family:sans-serif;
+    font-size: 16px;
+}
+
+
+
+.img{
+
+background-image: url("SolarBranco.png");
+background-size: contain;
+background-repeat: no-repeat;
+width: 50%;
+height:5% ;
+margin-bottom: 10px;
+}
+
+.secundario{
+color: white;
+font-family:sans-serif;
+font-size: 18px;
+font-weight: 400;
+
+
+}
+
+
+
+/* .garrafa{
+background-image: url("./garrafa.png");
+background-repeat: no-repeat;
+background-size: 50px;
+width: 50%;
+height: 100%;
+position: absolute;
+left: 48%;
+top: 36%;
+}
+ */
+
