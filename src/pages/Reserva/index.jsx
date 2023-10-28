@@ -1,3 +1,4 @@
+import { Button } from "../../components/Button/index";
 import {
   Container,
   TopTabBarNavigator,
@@ -36,7 +37,11 @@ export function Reserva() {
           </FlexDiv>
           <FlexDiv>
           <Input type="text" id="placa" />
-          <button>🔍</button>
+          <Button
+           width="150px"
+           backgroundColor="red"
+           color="white"
+           onClick={()=> null}>🔍</Button>
           </FlexDiv>
         </InputDiv>
 
