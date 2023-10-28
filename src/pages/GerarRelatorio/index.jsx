@@ -1,13 +1,13 @@
-import { Sidebar } from '../Sidebar'
-import './index.css'
+import { Sidebar } from "../Sidebar";
+import "./index.css";
 import "./style.css";
 import { multas } from "../../Utils/multas";
 import ResumoMulta from "../../components/resumoMulta";
 
 export function GerarRelatorio() {
-    return (
-        <>
-            <Sidebar />
+  return (
+    <>
+      <Sidebar />
       <div className="main-container-desktop">
         <div className="secundary-container">
           <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -39,6 +39,5 @@ export function GerarRelatorio() {
         </div>
       </div>
     </>
-        </>
-    )
+  );
 }
