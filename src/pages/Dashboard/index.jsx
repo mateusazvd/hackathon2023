@@ -1,6 +1,7 @@
 import "./index.css";
 import { cidades } from "../../Utils/cidades";
 
+
 export function Dashboard() {
   return (
     <>
@@ -43,12 +44,65 @@ export function Dashboard() {
                   <p>Em multas mês passado</p>
                 </div>
               </div>
-              <div className="lista-infacoes-container">
+              <div className="lista-infracoes-container">
+                <span>
+                  <div style={{fontSize:"16px",color: "#fff"}}>Infrações mais recentes</div>
+                  <div style={{ color: "#E5333B",fontSize:"14px"}}>Ver mais</div>
+                </span>
                 <div className="item-infracao">
                   <div>
                     <p>Mateus Azevedo Aguiar</p>
                     <p>86975 - Multa por alta velocidade</p>
-                    <p style={{color:"#7E7A7A"}}>{"Fortaleza(CE) 25/12/2022 ás 17:32"}</p>
+                    <p style={{ color: "#7E7A7A" }}>
+                      {"Fortaleza(CE) 25/12/2022 ás 17:32"}
+                    </p>
+                  </div>
+                  <div>
+                    <p>Nivel</p>
+                    <p>R$ 190,00</p>
+                    <p>Placa BRA2E19</p>
+                  </div>
+                </div>
+                <div className="item-infracao">
+                  <div>
+                    <p>Mateus Azevedo Aguiar</p>
+                    <p>86975 - Multa por alta velocidade</p>
+                    <p style={{ color: "#7E7A7A" }}>
+                      {"Fortaleza(CE) 25/12/2022 ás 17:32"}
+                    </p>
+                  </div>
+                  <div>
+                    <p>Nivel</p>
+                    <p>R$ 190,00</p>
+                    <p>Placa BRA2E19</p>
+                  </div>
+                </div>
+                <div className="item-infracao">
+                  <div>
+                    <p>Mateus Azevedo Aguiar</p>
+                    <p>86975 - Multa por alta velocidade</p>
+                    <p style={{ color: "#7E7A7A" }}>
+                      {"Fortaleza(CE) 25/12/2022 ás 17:32"}
+                    </p>
+                  </div>
+                  <div>
+                    <p>Nivel</p>
+                    <p>R$ 190,00</p>
+                    <p>Placa BRA2E19</p>
+                  </div>
+                </div>
+                <div className="item-infracao">
+                  <div>
+                    <p>Mateus Azevedo Aguiar</p>
+                    <p>86975 - Multa por alta velocidade</p>
+                    <p style={{ color: "#7E7A7A" }}>
+                      {"Fortaleza(CE) 25/12/2022 ás 17:32"}
+                    </p>
+                  </div>
+                  <div>
+                    <p>Nivel</p>
+                    <p>R$ 190,00</p>
+                    <p>Placa BRA2E19</p>
                   </div>
                 </div>
               </div>
