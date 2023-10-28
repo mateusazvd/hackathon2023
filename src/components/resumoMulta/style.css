@@ -1,0 +1,10 @@
+.multaContainer {
+  height: 4.125rem;
+  border-radius: 0.4375rem;
+  background: #2a2a2a;
+  margin-top: .5rem;
+}
+
+.spanSubTitle{
+    margin-left: 1rem;
+}

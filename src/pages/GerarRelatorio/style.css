@@ -1,0 +1,96 @@
+.main-container-relatorio{
+  background-color: #262424;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secundary-container-relatorio{
+  background-color: #313131;
+  height: 90vh;
+  width: 90%;
+  border-radius: 16px;
+  padding: 20px;
+  margin-left: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.titleContainer{
+  margin-top: 1.5rem;
+}
+
+.titleContainer p {
+  font-weight: 300;
+  margin-top: 5px;
+  color: rgb(187, 187, 187);
+}
+
+.containerUpload {
+  background-color: rgba(67, 66, 66, 0.28);
+  width: 23.8125rem;
+  height: 11.875rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.btnUpload {
+  width: 9.125rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 0.25rem;
+  background: #e5333cb9;
+  color: #fff;
+  margin-bottom: 1.25rem;
+  cursor: pointer;  
+  transition: .2s;
+}
+
+.btnUpload:hover{
+  background-color: #e71d27;
+}
+
+.inpSearch {
+  width: 25.5625rem;
+  height: 2.25rem;
+  background-color: #363535;
+  border: 1px solid #434343;
+  border-radius: 3px;
+  padding: 1rem;
+  margin-top: 3rem;
+  color: #fff;
+}
+
+.inpSearch:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.btnSearch {
+  border-radius: 0.5rem;
+  background: #e5333b;
+  width: 7.4375rem;
+  height: 2.375rem;
+  border: none;
+  color: white;
+  margin-left: 1rem;
+  cursor: pointer;  
+  transition: .2s;
+}
+
+.btnSearch:hover{
+  background-color: #e71d27
+}
+
+
+.containerMulta {
+  margin-top: .5rem;
+  overflow-y: hidden;
+  max-height: 14rem;
+}
