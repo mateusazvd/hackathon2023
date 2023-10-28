@@ -6,6 +6,7 @@ import { Dashboard } from "./pages/Dashboard";
 import { GerarRelatorio } from "./pages/GerarRelatorio";
 import { Reserva } from "./pages/Reserva";
 import "./index.css"
+import { Admin } from "./pages/Admin";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -13,11 +14,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/admin",
-    element: <Dashboard />,
-  },
-  {
-    path: "/admin/relatorio",
-    element: <GerarRelatorio />,
+    element: <Admin />,
   },
   {
     path: "/reserva",

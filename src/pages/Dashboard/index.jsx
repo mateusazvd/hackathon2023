@@ -1,11 +1,11 @@
 import "./index.css";
 import { cidades } from "../../Utils/cidades";
+import { Sidebar } from "../Sidebar";
 
 
 export function Dashboard() {
   return (
     <>
-      <div className="main-container-desktop">
         <div className="secundary-container">
           <div className="title-container">
             <h1>{"Bem vindo(a)"}</h1>
@@ -109,7 +109,6 @@ export function Dashboard() {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 }

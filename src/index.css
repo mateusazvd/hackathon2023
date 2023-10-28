@@ -3,6 +3,7 @@
   padding: 0;
   font-family: 'Inter', sans-serif;
   font-family: 'Roboto', sans-serif;
+  scrollbar-width: thin;
 }
 
 .main-container-desktop {
@@ -11,15 +12,16 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: left;
 }
 
 .secundary-container{
     background-color: #313131;
     height: 90vh;
-    width: 70%;
+    width: 75%;
     border-radius: 16px;
     padding: 20px;
+    margin-left: 30px;
 }
 
 .filtros-mes{
