@@ -3,10 +3,9 @@ import "./style.css";
 import { multas } from "../../Utils/multas";
 import ResumoMulta from "../../components/resumoMulta";
 
-export default function GerarRelatorio() {
+export function GerarRelatorio() {
   return (
     <div style={{display: "flex"}}>
-      <Sidebar />
       <div className="main-container-relatorio">
         <div className="secundary-container-relatorio">
           <div style={{ display: "flex", justifyContent: "space-between" }}>
