@@ -5,7 +5,7 @@ import React from "react";
 import { Dashboard } from "./pages/Dashboard";
 import { GerarRelatorio } from "./pages/GerarRelatorio";
 import { Reserva } from "./pages/Reserva";
-
+import "./index.css"
 const router = createBrowserRouter([
   {
     path: "/",
