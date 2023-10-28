@@ -1,7 +1,11 @@
-export function GerarRelatorio(){
-    return(
+import { Sidebar } from '../Sidebar'
+import './index.css'
+
+
+export function GerarRelatorio() {
+    return (
         <>
-            gerar relatorio   
-        </>    
+            <Sidebar />
+        </>
     )
 }
