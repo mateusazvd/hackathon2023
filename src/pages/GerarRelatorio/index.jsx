@@ -5,7 +5,6 @@ import ResumoMulta from "../../components/resumoMulta";
 
 export function GerarRelatorio() {
   return (
-    <div style={{display: "flex"}}>
       <div className="main-container-relatorio">
         <div className="secundary-container-relatorio">
           <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -36,6 +35,5 @@ export function GerarRelatorio() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
