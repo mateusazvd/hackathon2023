@@ -18,6 +18,7 @@ width: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
+flex-direction: column;
 }
 
 .direito{
@@ -39,6 +40,7 @@ width: 40%;
 margin-bottom: 10%;
 font-size: 26px;
 font-weight: bold;
+font-family:sans-serif;
 }
 
 .inputLogin{
@@ -49,6 +51,7 @@ border-bottom: 1px solid black;
 padding-bottom: 10px;
 font-size: 16px;
 margin-bottom: 20px;
+font-family:sans-serif;
 }
 
 .inputLogin:focus {
@@ -67,6 +70,7 @@ margin-bottom: 20px;
     padding-bottom: 10px;
     font-size: 16px;
     margin-bottom: 20px;
+    font-family:sans-serif;
     }
 
 .inputSenha:focus {
@@ -85,6 +89,8 @@ margin-bottom: 20px;
     cursor: pointer;
     color:white;
     background-color: #171718;
+    font-family:sans-serif;
+    font-size: 16px;
 }
 
 
@@ -96,6 +102,16 @@ background-size: contain;
 background-repeat: no-repeat;
 width: 50%;
 height:5% ;
+margin-bottom: 10px;
+}
+
+.secundario{
+color: white;
+font-family:sans-serif;
+font-size: 18px;
+font-weight: 400;
+
+
 }
 
 

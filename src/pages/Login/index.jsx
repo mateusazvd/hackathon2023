@@ -11,7 +11,7 @@ export function Login(){
 
                 <div className="esquerdo">
                     <div className="img"></div>
-                    <div className="secundario">Painel de Infração</div>
+                    <h2 className="secundario">Painel de Infração</h2>
                 </div>
 
 
