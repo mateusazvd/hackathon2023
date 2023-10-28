@@ -19,14 +19,6 @@ export default function GerarRelatorio() {
             </div>
           </div>
 
-<<<<<<< HEAD
-export function GerarRelatorio() {
-    return (
-        <>
-        </>
-    )
-}
-=======
           <input type="text" className="inpSearch" placeholder="Pesquisar" />
           <button className="btnSearch">Pesquisar</button>
           <div className="containerMulta">
@@ -48,4 +40,3 @@ export function GerarRelatorio() {
     </div>
   );
 }
->>>>>>> 05534fbae8116f27b998abeb5ab8340ae50d6bb1
