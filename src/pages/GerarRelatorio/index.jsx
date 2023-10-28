@@ -39,6 +39,5 @@ export function GerarRelatorio() {
         </div>
       </div>
     </>
-        </>
     )
 }
